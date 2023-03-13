@@ -41,35 +41,35 @@
        
         <Button Text="-" Grid.Row="2" Grid.Column="1"
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+               FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="1" IsEnabled="True"/>
         <Button Text="-" Grid.Row="2" Grid.Column="2"
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+               FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="2" IsEnabled="True" />
 
        
         <Button Text="-" Grid.Row="3" Grid.Column="1"
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+               FontSize="36" BorderRadius="0"  Clicked="OnSelectBox" ClassId="3" IsEnabled="True"/>
         <Button Text="-" Grid.Row="3" Grid.Column="2"
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+               FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="4" IsEnabled="True"/>
         <Button Text="-" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1"
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+               FontSize="36" BorderRadius="0"  Clicked="OnSelectBox" ClassId="5" IsEnabled="True"/>
         <Button Text="-" Grid.Row="4" Grid.Column="2" 
                BackgroundColor="Gray" TextColor="Black"
-               FontSize="36" BorderRadius="0" Clicked="OnSelectDot" />
+               FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="6" IsEnabled="True"/>
 
     
         <Button Text="-" Grid.Row="2" Grid.Column="3"
                 BackgroundColor="Gray" TextColor="Black"
-                FontSize="36" BorderRadius="0" Clicked="OnSelectOperator" />
+                FontSize="36" BorderRadius="0"  Clicked="OnSelectBox" ClassId="7" IsEnabled="True"/>
         <Button Text="-" Grid.Row="3" Grid.Column="3"
                 BackgroundColor="Gray" TextColor="Black"
-                FontSize="36" BorderRadius="0" Clicked="OnSelectOperator" />
+                FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="8" IsEnabled="True"/>
         <Button Text="-" Grid.Row="4" Grid.Column="3"
                 BackgroundColor="Gray" TextColor="Black"
-                FontSize="36" BorderRadius="0" Clicked="OnSelectOperator" />
+                FontSize="36" BorderRadius="0" Clicked="OnSelectBox" ClassId="9" IsEnabled="True"/>
 
     
         <Label x:Name="OText" FontSize="36" FontAttributes="Bold" BackgroundColor="White" Text="O Player Wait"
@@ -78,7 +78,7 @@
 
         <Button Text="Reset" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3"
                 BackgroundColor="Red" TextColor="Black"
-                FontSize="36" BorderRadius="0" Clicked="OnSelectOperator" />
+                FontSize="36" BorderRadius="0"  Clicked="OnClear"/>
 
     </Grid>
 </ContentPage>
