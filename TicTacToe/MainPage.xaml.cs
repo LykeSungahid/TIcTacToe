@@ -103,15 +103,7 @@ namespace TicTacToe
 
         void OnClear(object sender, EventArgs e)
         {
-            currentState = 1;
-            int ctr;
-
-            for(ctr = 0;ctr<10;ctr++)
-            {
-                
-
-            }
-
+  
             x.Clear();
             o.Clear();
         }
